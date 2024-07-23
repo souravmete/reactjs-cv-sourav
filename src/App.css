@@ -1,0 +1,12 @@
+.image3D{
+    --a: 1deg;
+    /*controltheangleofrotation(thesmaller,thebetter)*/
+    transform: perspective(400px) rotate3d(var(--r,1,-1),0,calc(var(--i,1)*var(--a)));
+    -webkit-mask:linear-gradient(135deg,#000c 40%,#000,#000c 60%)100% 100%/250% 250%;
+    transition: .4s;
+    cursor: pointer;
+}
+  .image3D:hover {
+    --i: -1;
+    -webkit-mask-position: 0 0;
+  }
