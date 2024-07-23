@@ -42,7 +42,7 @@ export const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://www.overleaf.com/read/qtmnkrftjdwn#4762c1",
+      href: "./cv_inter.pdf",
       style: "rounded-br-md",
       download: true,
     },
