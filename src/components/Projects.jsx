@@ -20,7 +20,7 @@ import gradient from "../assets/portfolio/gradient.png"
 import passwordGen from "../assets/password-generator-3.webp"
 
 
-import reactWeather from '../assets/portfolio/reactweather.png'
+import reactWeather from '../assets/portfolio/reactWeatherapp.png'
 
 
 export const Projects = () => {
