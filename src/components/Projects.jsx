@@ -20,17 +20,19 @@ import gradient from "../assets/portfolio/gradient.png"
 import passwordGen from "../assets/password-generator-3.webp"
 
 
+import reactWeather from '../assets/portfolio/reactweather.png'
+
 
 export const Projects = () => {
 
 
     const projects = [
-        // {
-        //   id: 1,
-        //   src: arrayDestruct,
-        //   demo:"https://online-edu-platform.netlify.app/",
-        //   code:"https://github.com/souravmete/onlineEducation.github.io"
-        // },
+        {
+          id: 1,
+          src: reactWeather,
+          demo:"https://weather-app-reactjs-orpin-five.vercel.app/",
+          code:"https://github.com/souravmete/weather-app-reactjs"
+        },
         // {
         //   id: 2,
         //   src: reactParallax,
