@@ -101,9 +101,9 @@ export const Projects = () => {
     <>
       <div
         name="projects"
-        className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+        className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-[1000px]"
       >
-        <div className="max-w-screen-lg p-4 pb-0 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="max-w-screen-lg p-4 pb-0 mx-auto flex flex-col justify-center w-full h-[1000px]">
           {/* title head */}
 
           <TitleHead
