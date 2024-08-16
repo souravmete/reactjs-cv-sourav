@@ -90,7 +90,7 @@ export const EducationCard = ({ id, year, title, description }) => {
   return (
     <div
       key={id}
-      className="p-5 shadow-md shadow-[#06070A] rounded-lg duration-200 hover:scale-105 space-y-2 h-[160px]  content-center bg-gray-500"
+      className="p-5 shadow-md shadow-[#06070A] rounded-lg duration-200 hover:scale-105 space-y-2 lg:h-[160px]  content-center bg-gray-500"
     >
       <h4 className="">{year}</h4>
       <h3 className="text-lg font-semibold ">{title}</h3>
@@ -103,7 +103,7 @@ export const ExperienceCard = ({ id, year, title, description }) => {
   return (
     <div
       key={id}
-      className="p-5 shadow-md shadow-[#06070A] rounded-lg duration-200 hover:scale-105 space-y-2 h-[160px] content-center bg-gray-500"
+      className="p-5 shadow-md shadow-[#06070A] rounded-lg duration-200 hover:scale-105 space-y-2 lg:h-[160px] content-center bg-gray-500"
     >
       <h4 className="">{year}</h4>
       <h3 className="text-lg font-semibold">{title}</h3>

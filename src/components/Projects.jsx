@@ -101,9 +101,9 @@ export const Projects = () => {
     <>
       <div
         name="projects"
-        className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-[1000px]"
+        className="bg-gradient-to-b from-black to-gray-800 w-full text-white "
       >
-        <div className="max-w-screen-lg p-4 pb-0 mx-auto flex flex-col justify-center w-full h-[1000px]">
+        <div className="max-w-screen-lg p-4 pb-0 mx-auto flex flex-col justify-center w-full md:h-[1000px]">
           {/* title head */}
 
           <TitleHead
@@ -111,7 +111,7 @@ export const Projects = () => {
             decription="Check out some of my work right here"
           />
 
-          <div className="flex justify-center items-center gap-5 mb-10">
+          <div className="flex justify-center items-center gap-5 mb-10 flex-wrap">
             <button 
             onClick={()=>setItems(projects)}      
             className="flex items-center gap-1 group text-white w-fit px-4 py-2 my-2 rounded-md bg-gradient-to-r from-[#ad80b7] to-[#d779e7] cursor-pointer"
@@ -143,7 +143,7 @@ export const Projects = () => {
             </button>
           </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:px-12 px-0 ">
             {items.map(({ id, src, demo, code }) => (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
