@@ -20,7 +20,9 @@ import weather from "../assets/portfolio/weatherJs.png";
 
 import gradient from "../assets/portfolio/gradient.png";
 
-import passwordGen from "../assets/password-generator-3.webp";
+import passwordGen from "../assets/portfolio/passGen.png"
+
+import digitalClock from "../assets/portfolio/digital clock.png"
 
 import reactWeather from "../assets/portfolio/reactWeatherapp.png";
 
@@ -33,18 +35,19 @@ export const Projects = () => {
       demo: "https://weather-app-reactjs-orpin-five.vercel.app/",
       code: "https://github.com/souravmete/weather-app-reactjs",
     },
-    // {
-    //   id: 2,
-    //   src: reactParallax,
-    //   demo:"https://online-edu-platform.netlify.app/",
-    //   code:"https://github.com/souravmete/onlineEducation.github.io"
-    // },
-    // {
-    //   id: 2,
-    //   src: passwordGen,
-    //   demo:"https://passwordgenrtor.netlify.app/",
-    //   code:"https://github.com/souravmete/passwordGenerator"
-    // },
+    {
+      id: 8,
+      src: digitalClock,
+      demo:"https://digital-clock-js-animation.netlify.app/",
+      code:"https://github.com/souravmete/digital-clock"
+    },
+    {
+      id: 2,
+      src: passwordGen,
+      category:"react",
+      demo:"https://passgeneratoerandom.netlify.app/",
+      code:"https://github.com/souravmete/RandomPassGen"
+    },
     {
       id: 3,
       src: gradient,
@@ -103,7 +106,7 @@ export const Projects = () => {
         name="projects"
         className="bg-gradient-to-b from-black to-gray-800 w-full text-white "
       >
-        <div className="max-w-screen-lg p-4 pb-0 mx-auto flex flex-col justify-center w-full md:h-[1000px]">
+        <div className="max-w-screen-lg p-4 pb-0 mx-auto flex flex-col justify-center w-full ">
           {/* title head */}
 
           <TitleHead
