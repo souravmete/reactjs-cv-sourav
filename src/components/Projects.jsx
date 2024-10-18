@@ -10,7 +10,7 @@ import { TiSortAlphabetically } from "react-icons/ti";
 
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
-import travelingLandingPage from "../assets/portfolio/travelling.png"
+import travelingLandingPage from "../assets/portfolio/travelling.png";
 
 import onlineLearningPlatform from "../assets/portfolio/onlineLearningPlatform.png";
 
@@ -20,11 +20,13 @@ import weather from "../assets/portfolio/weatherJs.png";
 
 import gradient from "../assets/portfolio/gradient.png";
 
-import passwordGen from "../assets/portfolio/passGen.png"
+import passwordGen from "../assets/portfolio/passGen.png";
 
-import digitalClock from "../assets/portfolio/digital clock.png"
+import digitalClock from "../assets/portfolio/digital clock.png";
 
 import reactWeather from "../assets/portfolio/reactWeatherapp.png";
+
+import pokemonCard from "../assets/portfolio/pokemon-card.png";
 
 export const Projects = () => {
   const projects = [
@@ -34,12 +36,6 @@ export const Projects = () => {
       category: "react",
       demo: "https://weather-app-reactjs-orpin-five.vercel.app/",
       code: "https://github.com/souravmete/weather-app-reactjs",
-    },
-    {
-      id: 8,
-      src: digitalClock,
-      demo:"https://digital-clock-js-animation.netlify.app/",
-      code:"https://github.com/souravmete/digital-clock"
     },
     {
       id: 2,
@@ -82,7 +78,21 @@ export const Projects = () => {
       src: travelingLandingPage,
       demo:"https://travelling-site-html.netlify.app/",
       code:"https://github.com/souravmete/travelling-site"
-    }
+    },
+    {
+      id:8,
+      category:'react',
+      src: pokemonCard,
+      demo:"https://pokemon-cards-pica.netlify.app/",
+      code:"https://github.com/souravmete/Pokemon-website"
+    },
+    {
+      id: 9,
+      src: digitalClock,
+      category:'html',
+      demo:"https://digital-clock-js-animation.netlify.app/",
+      code:"https://github.com/souravmete/digital-clock"
+    },
   ];
 
 
